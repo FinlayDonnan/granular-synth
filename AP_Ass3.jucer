@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ou9OUi" name="AP_Ass3" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="DSBasQ" name="AP_Ass3">
+    <GROUP id="{77FC4D39-DBFA-F748-FD43-BC44B1D0BEDA}" name="Source">
+      <GROUP id="{24CB8DB1-22EB-52BD-7FC2-9A356844A692}" name="Audio">
+        <FILE id="gTiIqb" name="ifYouTurnBackNow.wav" compile="0" resource="1"
+              file="Audio/ifYouTurnBackNow.wav"/>
+        <FILE id="Sxv3uM" name="deja_vu_drums.wav" compile="0" resource="1"
+              file="Audio/deja_vu_drums.wav"/>
+        <FILE id="eMRMau" name="scratchRecording.wav" compile="0" resource="1"
+              file="Audio/scratchRecording.wav"/>
+      </GROUP>
+      <FILE id="qipOC5" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="b61dse" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="CJgLJr" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="URhFA2" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="R0GokT" name="FileLoader.h" compile="0" resource="0" file="Source/FileLoader.h"/>
+      <FILE id="mTsX3w" name="GranularSynth.h" compile="0" resource="0" file="Source/GranularSynth.h"/>
+      <FILE id="aiXffT" name="Delay.h" compile="0" resource="0" file="Source/Delay.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AP_Ass3"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AP_Ass3"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
