@@ -1,0 +1,21 @@
+# Projucer-generated folders
+Builds/
+JuceLibraryCode/
+
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Visual Studio
+.vs/
+*.user
+*.sdf
+*.opensdf
+
+# IDEs
+.idea/
+.vscode/
